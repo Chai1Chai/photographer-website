@@ -10,7 +10,7 @@ export default async function Services() {
   const payload = await getPayload({ config: configPromise });
 
   const { docs: services } = await payload.find({
-    collection: 'services',
+    collection: 'services'as any,
     depth: 1,
   });
 
