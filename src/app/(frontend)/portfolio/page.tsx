@@ -3,7 +3,7 @@ import Navbar from "../../../components/Navbar";
 import { Suspense } from 'react'
 import FullGallery from "../../../components/FullGallery";
 import Footer from "../../../components/Footer";
-
+export const revalidate = 60; 
 export default function PortfolioPage() {
   return (
     <>
