@@ -9,8 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@payloadcms/db-postgres": "^3.84.1",
+    "@payloadcms/next": "^3.84.1",
+    "@payloadcms/plugin-cloud-storage": "^3.84.1",
+    "@payloadcms/richtext-lexical": "^3.84.1",
+    "cloudinary": "^2.10.0",
+    "graphql": "^16.13.2",
     "next": "16.2.4",
     "next-cloudinary": "^6.17.5",
+    "payload": "^3.84.1",
+    "payloadcms-storage-cloudinary": "^1.0.1",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },

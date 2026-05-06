@@ -51,7 +51,7 @@ export default function Contacts() {
               </Link>
 
               <Link 
-                href="https://wa.me/your_number" 
+                href="https://max.ru/u/f9LHodD0cOIa7JRbwSbZfSWsb79qsKXZTbFi_p6W0KVpQKEnm6AW5l_GP_0" 
                 target="_blank"
                 className="px-8 py-4 bg-zinc-900 text-white text-xs uppercase tracking-widest hover:bg-zinc-800 transition-all rounded-md min-w-[140px] text-center"
               >

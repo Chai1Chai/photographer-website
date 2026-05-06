@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { CldImage } from 'next-cloudinary';
+import Link from 'next/link';
 
 const photos = [
   { id: 'photo_3_zyawrc', alt: 'Wedding moment' },
@@ -68,9 +69,13 @@ export default function Hero() {
         <p className="mt-4 text-zinc-200 font-light text-lg md:text-xl">
           Не «улыбнитесь» — будьте собой.
         </p>
-        <button className="mt-20 px-20 py-3 bg-white text-black text-xs font-bold uppercase tracking-widest rounded-xl hover:bg-zinc-200 transition-all pointer-events-auto">
-          Связаться
-        </button>
+
+        {/* Оборачиваем кнопку в Link */}
+        <a href="#contacts" className="mt-20">
+          <button className="px-20 py-3 bg-white text-black text-xs font-bold uppercase tracking-widest rounded-xl hover:bg-zinc-200 transition-all pointer-events-auto">
+            Связаться
+          </button>
+        </a>
       </div>
 
       <style jsx global>{`
