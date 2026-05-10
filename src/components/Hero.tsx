@@ -38,7 +38,7 @@ export default function Hero() {
 
   return (
     // Добавлен pt-20, чтобы контент не залезал под навигацию
-    <section className="md:mt-25 relative w-full h-screen overflow-hidden bg-white flex flex-col py-10">
+    <section className="md:mt-25 relative w-full h-screen overflow-hidden flex flex-col py-10">
       
       <div className="absolute inset-0 flex flex-col justify-center gap-4 pointer-events-none">
         

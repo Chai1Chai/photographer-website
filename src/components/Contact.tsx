@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Contacts() {
   return (
-    <section id='contacts' className="py-20 bg-white">
+    <section id='contacts' className="py-20">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
           

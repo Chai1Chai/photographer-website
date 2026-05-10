@@ -18,7 +18,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white border-b border-zinc-100">
+    <nav className="fixed top-0 w-full z-50 bg-[#FFFDF6] border-b border-zinc-100">
       <div className="container mx-auto px-6 h-20 flex items-center justify-center relative">
         
         {/* Десктопная навигация */}

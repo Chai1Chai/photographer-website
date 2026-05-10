@@ -17,7 +17,7 @@ const previewPhotos = [
 
 export default function PreviewGallery() {
   return (
-    <section className="py-10 bg-white">
+    <section className="py-10">
       <div className="max-w-6xl mx-auto px-4">
         
         <h2 className="text-center text-2xl md:text-5xl font-base text-zinc-600 mb-12 uppercase tracking-[0.1em]">

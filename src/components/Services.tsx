@@ -15,7 +15,7 @@ export default async function Services() {
   });
 
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="py-20">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         
         <h2 className="text-center text-2xl md:text-5xl font-base text-zinc-600 mb-12 uppercase tracking-[0.1em]">

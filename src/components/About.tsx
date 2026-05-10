@@ -4,7 +4,7 @@ import { CldImage } from 'next-cloudinary';
 
 export default function About() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center gap-12 md:gap-24">
           

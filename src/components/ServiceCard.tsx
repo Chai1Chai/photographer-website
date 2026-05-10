@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function ServiceCard({ service, imageId }: { service: any, imageId: string }) {
   return (
-    <div className="flex flex-col h-full bg-white border border-zinc-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+    <div className="flex flex-col h-full border border-zinc-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
       
       {/* Изображение */}
       <div className="relative w-full aspect-[4/3] shrink-0 bg-zinc-100">
