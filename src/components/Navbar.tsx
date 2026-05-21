@@ -47,7 +47,7 @@ export default function Navbar() {
 
         {/* Бургер-кнопка */}
         <button
-          className="md:hidden absolute right-6 z-50 w-10 h-10 flex items-center justify-center focus:outline-none bg-white"
+          className="md:hidden absolute right-6 z-50 w-10 h-10 flex items-center justify-center focus:outline-none bg-[#FFFDF6]"
           onClick={toggleMenu}
           aria-label="Toggle Menu"
         >
