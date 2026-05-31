@@ -9,8 +9,6 @@ export default function Footer() {
     <footer className="border-t border-zinc-100 py-12">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-
-          {/* Навигация в футере */}
           <nav className="flex gap-8 text-xs uppercase tracking-widest text-zinc-500">
             <Link href="/" className="hover:text-zinc-900 transition-colors">
               Главная

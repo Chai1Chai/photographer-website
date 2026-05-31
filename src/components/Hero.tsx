@@ -5,12 +5,12 @@ import { CldImage } from 'next-cloudinary';
 import Link from 'next/link';
 
 const photos = [
-  { id: 'photo_3_zyawrc', alt: 'Wedding moment' },
-  { id: 'photo_1_e4o5lt', alt: ' искренние эмоции' },
-  { id: 'photo_7_vbqrqd', alt: 'Portrait photography' },
-  { id: 'photo_6_msswfz', alt: 'Nature and light' },
-  { id: 'photo_2_wnawcu', alt: 'Black and white art' },
-  { id: 'photo_5_zybmwq', alt: 'Studio work' },
+  { id: 'photoMasha_4_xudt4y', alt: 'Wedding moment' },
+  { id: 'photoMasha_5_b6fyr6', alt: ' искренние эмоции' },
+  { id: 'photoMasha_6_utxynt', alt: 'Nature and light' },
+  { id: 'photoMasha_8_jigh0v', alt: 'Black and white art' },
+  { id: 'photoMasha_15_y769ug', alt: 'Studio work' },
+  { id: 'photoMasha_19_yardah', alt: 'Studio work' },
 ];
 
 const PhotoCard = ({ publicId, alt }: { publicId: string; alt: string }) => (

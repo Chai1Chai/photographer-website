@@ -13,7 +13,7 @@ export default function Contacts() {
           <div className="w-full md:w-1/2 max-w-[500px]">
             <div className="relative aspect-square overflow-hidden rounded-sm shadow-sm">
               <CldImage
-                src="photo_3_zyawrc" // Твой ID из Cloudinary
+                src="00luvicecream-cat-10300356_1920_wu6cnh" 
                 alt="Связаться с фотографом"
                 fill
                 className="object-cover"

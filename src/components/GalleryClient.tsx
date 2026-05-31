@@ -11,7 +11,6 @@ interface Photo {
 export default function GalleryClient({ allPhotos }: { allPhotos: Photo[] }) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   
-  // Состояния для зума
   const [scale, setScale] = useState(1);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   

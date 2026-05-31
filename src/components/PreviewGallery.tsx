@@ -4,15 +4,15 @@ import { CldImage } from 'next-cloudinary';
 import Link from 'next/link';
 
 const previewPhotos = [
-  { id: 'photo_3_zyawrc', alt: 'Wedding moment' },
-  { id: 'photo_1_e4o5lt', alt: ' искренние эмоции' },
-  { id: 'photo_7_vbqrqd', alt: 'Portrait photography' },
-  { id: 'photo_6_msswfz', alt: 'Nature and light' },
-  { id: 'photo_2_wnawcu', alt: 'Black and white art' },
-  { id: 'photo_5_zybmwq', alt: 'Studio work' },
-  { id: 'photo_4_q5nsdw', alt: 'Портрет на террасе' },
-  { id: 'main-sample', alt: 'Архитектурный портрет' },
-  { id: 'photo_6_msswfz', alt: 'Вид снизу' },
+  { id: 'photoMasha_4_xudt4y', alt: 'Wedding moment' },
+  { id: 'photoMasha_10_dqtwtx', alt: ' искренние эмоции' },
+  { id: 'photoMasha_6_utxynt', alt: 'Portrait photography' },
+  { id: 'photoMasha_7_pzelt0', alt: 'Nature and light' },
+  { id: 'photoMasha_3_uj1phz', alt: 'Black and white art' },
+  { id: 'photoMasha_14_wwod9h', alt: 'Studio work' },
+  { id: 'photoMasha_18_h6aakt', alt: 'Портрет на террасе' },
+  { id: 'photoMasha_9_vygixn', alt: 'Архитектурный портрет' },
+  { id: 'photoMasha (15)', alt: 'Вид снизу' },
 ];
 
 export default function PreviewGallery() {

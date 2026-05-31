@@ -14,7 +14,6 @@ export default async function FullGallery() {
   })
 
   const allPhotos = mediaData.docs.map((doc: any) => {
-    // Если Cloudinary все еще капризничает, берем прямую ссылку или ID
     const photoId = doc.cloudinary?.public_id || doc.filename || String(doc.id);
     
     return {
