@@ -16,19 +16,17 @@ export default function Footer() {
             <Link href="/portfolio" className="hover:text-zinc-900 transition-colors">
               Портфолио
             </Link>
-            <Link href="/services" className="hover:text-zinc-900 transition-colors">
+            <Link href="/#services" className="hover:text-zinc-900 transition-colors">
               Услуги
             </Link>
           </nav>
 
-          {/* Копирайт */}
           <div className="text-[10px] uppercase tracking-widest text-zinc-400">
             © {currentYear} Все права защищены
           </div>
           
         </div>
 
-        {/* Дополнительная тонкая деталь — можно указать город или специализацию */}
         <div className="mt-12 text-center border-t border-zinc-50 pt-8">
           <p className="text-[10px] uppercase tracking-[0.3em] text-zinc-300">
             Photography & Visual Art

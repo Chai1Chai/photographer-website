@@ -14,8 +14,7 @@ const photos = [
 ];
 
 const PhotoCard = ({ publicId, alt }: { publicId: string; alt: string }) => (
-  // Удален h-[400px] и mt-22. Используем только ширину и пропорцию 4/5.
-  <div className="w-[200px] md:w-[300px] aspect-[3/4] shrink-0 mx-2 overflow-hidden rounded-2xl relative group">
+   <div className="w-[200px] md:w-[300px] aspect-[3/4] shrink-0 mx-2 overflow-hidden rounded-2xl relative group">
     <CldImage
       src={publicId}
       alt={alt}
@@ -37,7 +36,6 @@ export default function Hero() {
   if (!mounted) return <section className="h-screen bg-white" />;
 
   return (
-    // Добавлен pt-20, чтобы контент не залезал под навигацию
     <section className="md:mt-25 relative w-full h-screen overflow-hidden flex flex-col py-10">
       
       <div className="absolute inset-0 flex flex-col justify-center gap-4 pointer-events-none">

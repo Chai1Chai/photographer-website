@@ -1,7 +1,7 @@
 import React from 'react';
 import { getPayload } from 'payload';
 import configPromise from '@/payload.config';
-import ServiceCard from './ServiceCard'; // Импортируем новый компонент
+import ServiceCard from './ServiceCard'; 
 
 
 export const revalidate = 3600;
