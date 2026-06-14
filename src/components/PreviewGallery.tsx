@@ -4,13 +4,13 @@ import { CldImage } from 'next-cloudinary';
 import Link from 'next/link';
 
 const previewPhotos = [
-  { id: 'photoMasha_4_xudt4y', alt: 'Wedding moment' },
+  { id: 'DSC_7140_1', alt: 'Wedding moment' },
   { id: 'photoMasha_10_dqtwtx', alt: ' искренние эмоции' },
-  { id: 'photoMasha_6_utxynt', alt: 'Portrait photography' },
-  { id: 'photoMasha_7_pzelt0', alt: 'Nature and light' },
-  { id: 'photoMasha_3_uj1phz', alt: 'Black and white art' },
-  { id: 'photoMasha_14_wwod9h', alt: 'Studio work' },
-  { id: 'photoMasha_18_h6aakt', alt: 'Портрет на террасе' },
+  { id: 'DSC_7246', alt: 'Portrait photography' },
+  { id: 'photoMasha_18_h6aakt', alt: 'Nature and light' },
+  { id: 'DSC_7348', alt: 'Black and white art' },
+  { id: 'DSC_7179', alt: 'Studio work' },
+  { id: 'DSC_7314', alt: 'Портрет на террасе' },
   { id: 'photoMasha_9_vygixn', alt: 'Архитектурный портрет' },
   { id: 'photoMasha (15)', alt: 'Вид снизу' },
 ];

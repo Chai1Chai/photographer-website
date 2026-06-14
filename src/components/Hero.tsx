@@ -7,9 +7,9 @@ import Link from 'next/link';
 const photos = [
   { id: 'photoMasha_4_xudt4y', alt: 'Wedding moment' },
   { id: 'photoMasha_5_b6fyr6', alt: ' искренние эмоции' },
-  { id: 'photoMasha_6_utxynt', alt: 'Nature and light' },
-  { id: 'photoMasha_8_jigh0v', alt: 'Black and white art' },
-  { id: 'photoMasha_15_y769ug', alt: 'Studio work' },
+  { id: 'DSC_7326', alt: 'Nature and light' },
+  { id: 'DSC_7206', alt: 'Black and white art' },
+  { id: 'DSC_7106_1', alt: 'Studio work' },
   { id: 'photoMasha_19_yardah', alt: 'Studio work' },
 ];
 
